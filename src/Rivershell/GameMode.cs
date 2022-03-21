@@ -23,7 +23,7 @@ namespace Rivershell
 {
     public class GameMode : BaseMode
     {
-        public static Team BlueTeam = new()
+        public static Team BlueTeam = new Team
         {
             Id = 1,
             Color = 0x7777DDFF,
@@ -34,7 +34,7 @@ namespace Rivershell
             ResupplyPosition = new Vector3(2140.83f, -235.13f, 7.13f)
         };
 
-        public static Team GreenTeam = new()
+        public static Team GreenTeam = new Team
         {
             Id = 2,
             Color = 0x77CC77FF,

@@ -82,7 +82,7 @@ namespace Rivershell.Controllers
                     p.PlaySound(1185);
 
                 var exitTimer = new Timer(6000, false);
-                exitTimer.Tick += (_, _) =>
+                exitTimer.Tick += (s, evt) =>
                 {
                     foreach (var p in Player.All)
                         p.PlaySound(1186);
