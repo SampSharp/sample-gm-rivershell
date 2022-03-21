@@ -1,4 +1,4 @@
-<name>
-======
+Rivershell
+==========
 
-This repository contains the <name> sample game mode written using SampSharp.<framework>.
+This repository contains the Rivershell sample game mode written using SampSharp.GameMode
